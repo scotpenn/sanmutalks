@@ -4,7 +4,7 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { getArticleById, getArticlesByCategory } from '@/data/blog';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 type TocItem = {
   id: string;
